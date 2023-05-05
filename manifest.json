@@ -1,0 +1,14 @@
+{
+ "manifest_version": 3,
+ "name": "KurtBerner",
+ "description": "It's Kurt Bernerizer everywhere",
+ "version": "1.0.0",
+ "author": "Pekka Savolainen",
+ "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }
+],
+ "permissions": ["activeTab"]
+}
